@@ -62,4 +62,6 @@ def newCountry(name):
     population = randing(10, 20) #population in millions
     gdppc = gdp/population
     
-    return Country(name, randint(100, 200), 
+    return Country(name, randint(100, 200)) 
+
+
